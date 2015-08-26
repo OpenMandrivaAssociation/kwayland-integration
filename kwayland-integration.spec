@@ -29,3 +29,8 @@ KDE Library for integration  Wayland display server.
 %ninja_install -C build
 
 %files
+%dir %{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms
+%dir %{_libdir}/qt5/plugins/kf5/org.kde.kwindowsystem.platforms
+
+%{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeKWaylandPlugin.so
+%{_libdir}/qt5/plugins/kf5/org.kde.kwindowsystem.platforms/KF5WindowSystemKWaylandPlugin.so

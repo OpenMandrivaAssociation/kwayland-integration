@@ -14,6 +14,7 @@ BuildRequires:	cmake(KF5IdleTime)
 BuildRequires:	cmake(KF5WindowSystem)
 BuildRequires:	cmake(KF5Wayland)
 BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Test)
 
 %description
 KDE Library for integration  Wayland display server.

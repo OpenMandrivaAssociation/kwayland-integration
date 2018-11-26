@@ -1,4 +1,5 @@
 removed_sources:
   kwayland-integration-5.12.3.tar.xz: 1bd8280101621688582d3d21704c330c2dd26c2a
-sources:
   kwayland-integration-5.12.6.tar.xz: a68fcd166ce71acfac35670c658ecbd1f85889c2
+sources:
+  kwayland-integration-5.12.7.tar.xz: dec80a3e148a27dbd27a60abf0b89c1be8973821

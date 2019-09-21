@@ -13,6 +13,7 @@ BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5IdleTime)
 BuildRequires:	cmake(KF5WindowSystem)
 BuildRequires:	cmake(KF5Wayland)
+BuildRequires:	cmake(KF5GuiAddons)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Test)
 

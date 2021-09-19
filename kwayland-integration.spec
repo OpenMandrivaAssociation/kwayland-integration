@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	cmake(Qt5XkbCommonSupport)
 BuildRequires:	pkgconfig(xkbcommon)
+BuildRequires:	cmake(WaylandProtocols)
 Requires:	kwayland
 
 %description

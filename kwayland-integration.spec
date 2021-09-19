@@ -16,6 +16,7 @@ BuildRequires:	cmake(KF5Wayland)
 BuildRequires:	cmake(KF5GuiAddons)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	pkgconfig(Qt5Test)
+BuildRequires:	cmake(Qt5XkbCommonSupport)
 Requires:	kwayland
 
 %description

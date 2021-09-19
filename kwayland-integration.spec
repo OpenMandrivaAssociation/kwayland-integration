@@ -19,8 +19,10 @@ BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	cmake(Qt5XkbCommonSupport)
 BuildRequires:	pkgconfig(xkbcommon)
 BuildRequires:	cmake(WaylandProtocols)
+BuildRequires:	cmake(WaylandScanner)
 BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	plasma-wayland-protocols
+BuildRequires:	wayland-tools
 Requires:	kwayland
 
 %description

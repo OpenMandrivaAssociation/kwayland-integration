@@ -3,7 +3,7 @@
 
 Summary: 	KDE Library for integration with the Wayland display server
 Name: 		kwayland-integration
-Version:	5.26.5
+Version:	5.27.0
 Release: 	1
 Source0: 	http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Url: 		http://kde.org/
@@ -43,9 +43,5 @@ KDE Library for integration  Wayland display server.
 %ninja_install -C build
 
 %files
-%dir %{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms
-
 %{_libdir}/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemKWaylandPlugin.so
-%{_libdir}/qt5/plugins/kf5/org.kde.kidletime.platforms/KF5IdleTimeKWaylandPlugin.so
-
 %{_datadir}/qlogging-categories5/kwindowsystem.kwayland.categories

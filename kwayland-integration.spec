@@ -19,6 +19,8 @@ Group: 		System/Libraries
 
 BuildRequires:	cmake(ECM)
 
+BuildRequires:	qmake5
+BuildRequires:	make
 BuildRequires:	cmake(Qt5)
 BuildRequires:	cmake(Qt5Core)
 BuildRequires:	cmake(Qt5Gui)
